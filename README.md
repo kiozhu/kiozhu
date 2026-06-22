@@ -26,16 +26,44 @@
 
 ---
 
-### 🧩 Karya Pilihan
+### 🚀 What I Build
 
-**🧬 Muzayn** — *Platform trading momentum market-neutral* `· privat`
-Platform otomasi modular berkontrol Telegram. Strategi **cross-sectional L/S momentum** divalidasi lewat *survivorship-clean backtest + placebo de-bias + walk-forward out-of-sample*. Eksekusi order live (Binance Futures via `ccxt`), notifikasi per-kategori, mode LLM self-tuning opsional, **watchdog 24/7 independen**, lapisan data portabel.
-<sub>`Python` · `asyncio` · `ccxt` · `PM2` · `Pillow` · `aiohttp` · `Telegram Bot`</sub>
+<table>
+<tr>
+<td width="50%" valign="top">
 
-**⚡ Trador** — *Bot riset pendahulu* `· privat`
-Mesin sinyal 22-scanner + uji *edge* ketat. Membuktikan (secara jujur) bahwa strategi scalp 1-menit *edgeless* — disiplin riset yang melahirkan Muzayn.
+#### 🤖 Self-Improving Trading Bots
+Sistem trading **otonom & market-neutral** yang me-ranking, eksekusi, dan **rebalance sendiri** — dilengkapi lapisan **self-improvement berbasis LLM**, *safety gating*, dan validasi backtest yang jujur (anti-overfitting). Jalan 24/7, kontrol penuh via Telegram.
+<br><sub>`async` · `ccxt` · `LLM` · `24/7`</sub>
 
-> 🔎 *Filosofi: bangun sederhana, uji jujur (OOS), keandalan di atas fitur. Backtest "too good to be true" = tidak true.*
+</td>
+<td width="50%" valign="top">
+
+#### 🥊 Live Battle Engine — TikTok Live
+**Mesin battle real-time** untuk live streaming: pertarungan gift/skor, ronde otomatis, leaderboard, dan interaksi penonton — tersinkron dengan event live secara *real-time* &amp; skala besar.
+<br><sub>`realtime` · `websocket` · `event-driven`</sub>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+#### 🧠 LLM Automation Pipelines
+Lapisan **keputusan &amp; asisten multi-provider** (Claude, MiniMax, OpenRouter…) dengan *guardrail* ketat — *self-learning loop*, orkestrasi prompt, dan fallback yang anggun.
+<br><sub>`multi-provider` · `guardrails` · `self-learning`</sub>
+
+</td>
+<td width="50%" valign="top">
+
+#### ⚙️ 24/7 Reliability Infrastructure
+Sistem *always-on* dengan **watchdog independen, self-healing, atomic state, &amp; anti dobel-instance** — dibangun untuk bertahan dari crash, putus jaringan, dan jalan tanpa pengawasan berbulan-bulan.
+<br><sub>`watchdog` · `self-healing` · `PM2`</sub>
+
+</td>
+</tr>
+</table>
+
+> 🔎 *Filosofi: bangun sederhana, uji jujur (out-of-sample), keandalan di atas fitur. Backtest "too good to be true" = tidak true.*
 
 ---
 
